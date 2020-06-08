@@ -1,0 +1,15 @@
+$main-color: #212f3c;
+$primary-color: #717171;
+$secondary-color: #2faeeb;
+$dark-color: #222;
+$light-color: #f4f4f4;
+
+@function set-text-color($bg-color) {
+  @if (lightness($bg-color) > 50%) {
+    @return $dark-color;
+  }
+
+  @else {
+    @return $light-color;
+  }
+}

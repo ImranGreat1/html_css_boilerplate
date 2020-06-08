@@ -1,0 +1,14 @@
+{
+  "name": "bodybuilding_site",
+  "version": "1.0.0",
+  "description": "Bodybuilding site template exercise",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass sass/:build/asset/css/ --watch"
+  },
+  "author": "Imran Great",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.26.8"
+  }
+}
